@@ -74,6 +74,7 @@ p{
     margin-bottom: 40px;
     font-size: 18px;
     color: #ffff;
+    padding: 0 100px;
 }
 
 .btn{
@@ -148,4 +149,37 @@ p{
 .box-container .box p{
     padding: 0 15px;
     font-size: 16px;
+}
+
+.about{
+    background: #171717;
+}
+
+.price{
+    background: url(img/costos.jpg) ro-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.contain{
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 0;
+}
+
+@media (max-width: 768px){
+
+    .title{
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau{
+        height: 120vh;
+    }
+
+    .navbar{
+        display: none;
+    }
 }
